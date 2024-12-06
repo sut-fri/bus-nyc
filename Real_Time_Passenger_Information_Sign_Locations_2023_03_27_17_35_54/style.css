@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(73, 175, 218);
+}
+
+canvas {
+  display: block;
+}
+
+#map {
+  height: 70vh;
+  width: 70vw;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Changed align-content to align-items for centering */
+  margin: 3em;
+  flex-direction: column;
+  justify-content: space-between; /* Adjusted for spacing between items */
+  color: white;
+  font-family: Havedica, sans-serif;
+}
